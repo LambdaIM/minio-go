@@ -28,6 +28,8 @@ type BucketInfo struct {
 	Name string `json:"name"`
 	// Date the bucket was created.
 	CreationDate time.Time `json:"creationDate"`
+	// Lambda field
+	Endpoint string `json:"endpoint"`
 }
 
 // ObjectInfo container for object metadata.
